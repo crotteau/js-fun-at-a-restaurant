@@ -11,21 +11,21 @@
 
 var food = "Egg and Cheese Burrito";
 var type = "Breakfast";
-var inStock = 4
-console.log(inStock, 'insStock: ')
+var inStock = 16
+console.log('inStock: ', inStock)
 
 
 // Reassign (not initialize) your "inStock" variable from above. We got a new shipment! Use a built in math operator to make 
 // the inStock count double what it currently is.
 
-inStock = 4 * 2;
-console.log(inStock)
+inStock = 16 * 2;
+console.log('inStock: ', inStock)
 
 // Reassign (not initialize) your "inStock" variable from above. You got hungry and needed a snack! 
 // Use a built in math operator to decrement the inStock count by 1.
 
 inStock --
-console.log(inStock, 'I got hungry inStock');
+console.log('I got hungry inStock: ', inStock);
 
 // Initialize a new variable "isFavorite", and assign it to a boolean value indicating
 // if the food you chose is your favorite food or not
@@ -38,7 +38,7 @@ var isFavorite = true;
 // comparison operator.
 
 var shouldOrderMore = inStock < 20;
-console.log(shouldOrderMore);
+console.log('shouldOrderMore: ', shouldOrderMore);
 
 
 //------------------------- Conditionals -------------------------//
